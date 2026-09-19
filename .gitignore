@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Application data
+data/documents/*
+data/faiss/*
+data/*.db
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
